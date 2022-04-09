@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iq">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".result"></activity>
+        <activity android:name=".memory6" />
+        <activity android:name=".memory5" />
+        <activity android:name=".memory4" />
+        <activity android:name=".memory3" />
+        <activity android:name=".memory2" />
+        <activity android:name=".memory1" />
+        <activity android:name=".speed6" />
+        <activity android:name=".speed5" />
+        <activity android:name=".speed4" />
+        <activity android:name=".speed3" />
+        <activity android:name=".speed2" />
+        <activity android:name=".speed1" />
+        <activity android:name=".perceptual8" />
+        <activity android:name=".perceptual7" />
+        <activity android:name=".perceptual6" />
+        <activity android:name=".perceptual5" />
+        <activity android:name=".perceptual4" />
+        <activity android:name=".perceptual3" />
+        <activity android:name=".perceptual2" />
+        <activity android:name=".perceptual1" />
+        <activity android:name=".verbal8" />
+        <activity android:name=".verbal7" />
+        <activity android:name=".verbal6" />
+        <activity android:name=".verbal5" />
+        <activity android:name=".verbal4" />
+        <activity android:name=".verbal3" />
+        <activity android:name=".verbal2" />
+        <activity android:name=".verbal1" />
+        <activity android:name=".Personaldate" />
+        <activity android:name=".mainhome" />
+        <activity android:name=".home2" />
+        <activity android:name=".home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

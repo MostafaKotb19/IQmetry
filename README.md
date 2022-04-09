@@ -1,0 +1,2 @@
+# IQmetry
+ An educational mobile application that provides an adaptive IQ test to measure students IQ level with a more efficient and time saving algorithm. According to the result, the application provides tips on how to deal with your IQ level and how to enhance it. The test measures four skills which are: perceptual reasoning, verbal comprehension, processing speed, and short-term memory working.

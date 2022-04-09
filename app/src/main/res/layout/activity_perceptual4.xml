@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".perceptual4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/pi41"
+        android:layout_width="230dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pq41" />
+
+    <TextView
+        android:id="@+id/ptimer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/_1_00"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/pq411"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pi41" />
+
+    <RadioButton
+        android:id="@+id/pq412"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pq411" />
+
+    <RadioButton
+        android:id="@+id/pq413"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/pi41"
+        app:layout_constraintTop_toBottomOf="@+id/pi41" />
+
+    <RadioButton
+        android:id="@+id/pq414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="@+id/pq413"
+        app:layout_constraintTop_toBottomOf="@+id/pq413" />
+
+
+    <TextView
+        android:id="@+id/pq41"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/what_comes_next_in_the_following_series"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pi41"
+        app:layout_constraintTop_toTopOf="@+id/pi41" />
+
+    <ImageView
+        android:id="@+id/pi411"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/pq411"
+        app:layout_constraintStart_toEndOf="@+id/pq411"
+        app:layout_constraintTop_toTopOf="@+id/pq411"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/pi412"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/pq412c"
+        app:layout_constraintStart_toEndOf="@+id/pq412"
+        app:layout_constraintTop_toTopOf="@+id/pq412"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/pi413"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/pq413"
+        app:layout_constraintStart_toEndOf="@+id/pq413"
+        app:layout_constraintTop_toTopOf="@+id/pq413"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/pi414"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/pq414"
+        app:layout_constraintStart_toEndOf="@+id/pq414"
+        app:layout_constraintTop_toTopOf="@+id/pq414"
+        android:contentDescription="@string/todo"/>
+
+            <Button
+                android:id="@+id/pnext4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pi424" />
+
+    <ImageView
+        android:id="@+id/pi42"
+        android:layout_width="230dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/pq42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pi412" />
+
+    <RadioButton
+        android:id="@+id/pq421"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pi42" />
+
+    <RadioButton
+        android:id="@+id/pq422"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pq421" />
+
+    <RadioButton
+        android:id="@+id/pq423"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/pi42"
+        app:layout_constraintTop_toBottomOf="@+id/pi42" />
+
+    <RadioButton
+        android:id="@+id/pq424"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="@+id/pq423"
+        app:layout_constraintTop_toBottomOf="@+id/pq423" />
+
+    <ImageView
+        android:id="@+id/pi421"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/pq421"
+        app:layout_constraintStart_toEndOf="@+id/pq421"
+        app:layout_constraintTop_toTopOf="@+id/pq421"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/pi422"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/pq422"
+        app:layout_constraintStart_toEndOf="@+id/pq422"
+        app:layout_constraintTop_toTopOf="@+id/pq422"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/pi423"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/pq423"
+        app:layout_constraintStart_toEndOf="@+id/pq423"
+        app:layout_constraintTop_toTopOf="@+id/pq423"
+        android:contentDescription="@string/todo"/>
+
+            <ImageView
+                android:id="@+id/pi424"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/pq424c"
+                app:layout_constraintStart_toEndOf="@+id/pq424"
+                app:layout_constraintTop_toTopOf="@+id/pq424" />
+
+    <TextView
+        android:id="@+id/pq42"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/what_comes_next_in_the_following_series"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pi42"
+        app:layout_constraintTop_toTopOf="@+id/pi42" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
